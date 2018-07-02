@@ -9,7 +9,7 @@ function getIt() {
 function frameIt() {
   $('img').on('load', function(){
     frame = document.getElementById("img")
-    frame.classList.add
+    frame.classList.add('tasty')
 });
 }
 
