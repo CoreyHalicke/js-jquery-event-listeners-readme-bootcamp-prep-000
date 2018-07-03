@@ -20,6 +20,12 @@ function pressIt() {
   })
 }
 
+function submitIt(){
+  $('form').on('submit', function() {
+    alert('your form is')
+  }
+}
+
 $(document).ready(function(){
 
 // call functions here
