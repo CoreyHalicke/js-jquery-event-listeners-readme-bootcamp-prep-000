@@ -22,8 +22,8 @@ function pressIt() {
 
 function submitIt(){
   $('form').on('submit', function() {
-    alert('your form is')
-  }
+    alert('Your form is going to be submitted now.')
+  })
 }
 
 $(document).ready(function(){
@@ -32,4 +32,5 @@ $(document).ready(function(){
   getIt()
   frameIt()
   pressIt()
+  submitIt()
 });
